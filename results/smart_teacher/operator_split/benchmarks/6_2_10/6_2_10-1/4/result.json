@@ -1,0 +1,60 @@
+{
+  "result": "Success",
+  "learningTime": 1.5750820636749268,
+  "mqNum": 5,
+  "eqNum": 1,
+  "testNum": 2,
+  "testNumCache": 2,
+  "actionNum": 3,
+  "totalTime": 9.0,
+  "tableNum": 2,
+  "correct": false,
+  "passingRate": 0.6555,
+  "model": {
+    "actions": [
+      "a",
+      "b"
+    ],
+    "states": [
+      0,
+      1
+    ],
+    "initState": 0,
+    "acceptStates": [],
+    "sinkState": 1,
+    "trans": [
+      [
+        "0",
+        "0",
+        "a",
+        "[0,+)",
+        "True",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "b",
+        "[0,+)",
+        "True",
+        "1"
+      ],
+      [
+        "2",
+        "1",
+        "a",
+        "[0,+)",
+        "True",
+        "1"
+      ],
+      [
+        "3",
+        "1",
+        "b",
+        "[0,+)",
+        "True",
+        "1"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+digraph {
+	"" [label="" shape=plaintext]
+	"" -> 0 [label=" start" style=dashed]
+	0 [label=0 shape=doublecircle]
+	1 [label=1]
+	2 [label=2 shape=doublecircle]
+	3 [label=3 shape=doublecircle]
+	0 -> 1 [label=" coin? [0,+) True"]
+	1 -> 0 [label=" refund! [3,+) False"]
+	1 -> 2 [label=" b_coffee? [0,+) True"]
+	1 -> 3 [label=" b_tea? [0,+) True"]
+	2 -> 2 [label=" none [0,6) False"]
+	2 -> 0 [label=" coffee! [3,+) False"]
+	3 -> 3 [label=" none [0,6) False"]
+	3 -> 0 [label=" tea! [2,+) False"]
+	1 -> 1 [label=" none [0,6) False"]
+}

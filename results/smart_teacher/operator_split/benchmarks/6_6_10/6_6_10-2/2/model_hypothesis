@@ -1,0 +1,9 @@
+digraph {
+	"" [label="" shape=plaintext]
+	"" -> 0 [label=" start" style=dashed]
+	0 [label=0 shape=doublecircle]
+	2 [label=2]
+	0 -> 0 [label=" f [0,+) True"]
+	0 -> 2 [label=" c [0,+) True"]
+	2 -> 2 [label=" e [0,+) True"]
+}

@@ -1,0 +1,16 @@
+digraph {
+	"" [label="" shape=plaintext]
+	"" -> c0 [label=" start" style=dashed]
+	s0 [label=s0 shape=doublecircle]
+	c2 [label=c2 shape=doublecircle]
+	c4 [label=c4 shape=doublecircle]
+	c0 [label=c0 shape=doublecircle]
+	c1 [label=c1 shape=doublecircle]
+	c2 -> c4 [label=" release? [0,+) True"]
+	c0 -> c1 [label=" press? [0,+) True"]
+	c4 -> c0 [label=" endhold! [0,+) True"]
+	c1 -> c2 [label=" starthold! [10,+) True"]
+	s0 -> c0 [label=" touch! [0,+) False"]
+	c1 -> c0 [label=" release? [0,5) True"]
+	c1 -> s0 [label=" release? [5,+) False"]
+}
