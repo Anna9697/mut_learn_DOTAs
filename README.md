@@ -12,8 +12,12 @@ The project was developed using Python3, and you only need to download the proje
 - graphviz (used for drawing)
 
 ## Usage
+A example model `example.json` is given in folder `benchmarks`, run `main.py` to learn the example model with our method.
+The result and drawn model images are in `./results/example/`. 
 
-### 1. Run experiment
+All experiment cases are in folder `benchmarks`.
+
+### 1. Run experiments
 
 #### 1) Run case study
 To run the cases in experiments by Mutation_new:
@@ -94,10 +98,10 @@ In the process of use, you must ensure that the naming is correct and the conten
 
 ### 2. Parameter Settings
 
-For mutation-based equivalence testing, we have set the generally applicable parameters in advance, but users can also customize the relevant parameters in the files `./test/random_testing.py` and `./test/mutation_testing.py`.
+For mutation-based equivalence testing, we have set the generally applicable parameters in advance, but users can also customize the relevant parameters in the files `./testing/random_testing.py` and `./testing/mutation_testing.py`.
 
 ## Output
 
 If we learn the target DOTA successfully, the final DOTA will be drawn and displayed as a PDF file. And all results will be stored in a folder named `results` and a file named `result.json`.
 
-Experiment results of benchmarks are in `results/smart_teacher.zip` and sorted in `results.xlsx`.
+Experiment results of benchmarks are in `./results/smart_teacher.zip` and sorted in `results.xlsx`.

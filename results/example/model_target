@@ -1,0 +1,12 @@
+digraph {
+	"" [label="" shape=plaintext]
+	"" -> 1 [label=" start" style=dashed]
+	1 [label=1]
+	2 [label=2 shape=doublecircle]
+	1 -> 2 [label=" a [3,9) True"]
+	1 -> 2 [label=" b [1,5] True"]
+	1 -> 1 [label=" c [0,3) False"]
+	2 -> 1 [label=" a (5,+) False"]
+	2 -> 1 [label=" b (7,8] False"]
+	2 -> 1 [label=" c (4,+) True"]
+}
