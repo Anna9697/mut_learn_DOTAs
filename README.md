@@ -105,3 +105,5 @@ For mutation-based equivalence testing, we have set the generally applicable par
 If we learn the target DOTA successfully, the final DOTA will be drawn and displayed as a PDF file. And all results will be stored in a folder named `results` and a file named `result.json`.
 
 Experiment results of benchmarks are in `./results/smart_teacher.zip` and sorted in `results.xlsx`.
+
+$\gamma$
